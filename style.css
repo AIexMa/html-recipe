@@ -1,0 +1,44 @@
+
+body {
+  font-family: "Garamond";
+  color: black;
+  background-color: white;
+}
+h1 {
+  background-color: pink;
+  border-style: dotted;
+}
+.centered {
+  text-align: center;
+}
+#spag {
+  text-indent:50px;
+  border-style: dotted;
+  border-color: black;
+}
+ul {
+  border-style: dotted;
+  border-color: pink;
+  list-style-position: inside;
+  font-size: 20px;
+}
+#stuff {
+  font-size: 20px;
+  width: 65%
+}
+h4 {
+  text-indent: 20px
+}
+img {
+  width: 500px;
+  height: auto;
+}
+.cool {
+  flex-direction: column;
+  width: 35%;
+}
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+

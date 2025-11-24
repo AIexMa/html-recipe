@@ -4,24 +4,26 @@
     <meta charset="utf-8">
     <title>Spaghetti Carbonara Recipe</title>
     <link rel="stylesheet" href="style.css">
+    <script src="website.js"></script>
   </head>
   <body>
     <h1 class="centered">Recipes</h1>
     <h2 class="centered">Spaghetti Carbonara Recipe</h2>
     <p>My family got this recipe from Foreign Cinema, and we have been making it since I was little. It was also the first recipe I learned how to make.</p>
-    <u><em><h2 id=spag>Ingredients</h2></em></u>
 
+    <u><em><h2 id=spag>Ingredients</h2></em></u>
+    <button id="thing" onclick="myFunction()">2-3 Servings</button> <button id="thing" onclick="servings2()">4-6 Servings</button>
     <ul>
-      <li>
+      <li id="nood">
         1 pound of noodles
       </li>
-      <li>
+      <li id="oliveoil">
         2 tablespoons pure olive oil
       </li>
-      <li>
+      <li id="dragoneggs">
         4 eggs
       </li>
-      <li>
+      <li id="bakon">
         6 thick slices of smoky bacon
       </li>
       <li>
@@ -30,7 +32,7 @@
       <li>
         Freshly ground black pepper to taste
       </li>
-      <li>
+      <li id="cheezeburger">
         Chunk of Parmesean cheese, freshly grated
       </li>
     </ul>
@@ -68,5 +70,20 @@
         <p>I love spaghetti carbonara :)</p>
       </div>
     </div>
+    <center><h3 id="nya">Reviews</h3></center>
+    <p class="bum">⭐⭐⭐⭐⭐ This is the yummiest carbonara ever - Chiikawa Hachiware</p>
+    <p class="bum">⭐⭐⭐⭐⭐ I made this carbonara and... To be honest, it was magical. It ruled my heart in the way that it felt like a cure to my ailments. It felt like a sweet dream, eating this Carbonara. This Carbonara felt like hope bloomeed from the abyss, in a sense. - Charlotte Woo</p>
+    <p class="bum">⭐⭐⭐⭐⭐ This carbonara is just like Mizuki Project Sekai herself... - Greyson Wrobel</p>
+    <h3>Write a review:</h3>
+    <select id="mySelect" onchange="yaa()">
+      <option value="Stars: ⭐">1 Stars
+      <option value="Stars: ⭐⭐">2 Stars
+      <option value="Stars: ⭐⭐⭐">3 Stars
+      <option value="Stars: ⭐⭐⭐⭐">4 Stars
+      <option value="Stars: ⭐⭐⭐⭐⭐">5 Stars
+    </select>
+    <p id="demo">Stars:</p>
+    <input type="text" oninput="stuff()">
+    <p id="review">...</p>
   </body>
 </html>
